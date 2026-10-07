@@ -210,6 +210,30 @@ In this paper, we show that when policy-motivated parties can commit to a partic
 <p style="margin-bottom: 0;">&nbsp;</p>
 <h3 class="research_headers" style="margin-top: 0;">Working papers</h3>
 
+<p align="justify" style="margin-top: 0; margin-bottom: 0;"><a href="https://www.dropbox.com/scl/fi/i6h45xyrr1xvk2ef4nezs/pooling_and_multiplication.pdf?rlkey=qw07ytbjdhft7xx508t0curnx&dl=0">Multiplication from Two Pooling Principles</a> (October, 2026). Let &#8902; be a binary operation on the positive integers that is strictly increasing in its second argument. Call the elements <em>a</em> &#8902; <em>j</em> the &#8902;-multiples of <em>a</em>, and let M<sub>a</sub>(N) count those not exceeding a threshold N. For each fixed <em>a</em>, we impose two pooling principles: the count at the sum of two thresholds is at least the sum of their counts; and if the counts at two thresholds are below <em>u</em> and <em>v</em>, respectively, the count at their sum is below <em>u</em> + <em>v</em>. If the operation has right identity 1 and is either associative or commutative, these principles force <em>a</em> &#8902; <em>b</em> = <em>ab</em>. Thus associativity and commutativity need not be assumed together, and factoriality is a consequence. Each pooling principle is indispensable even among commutative, strictly ordered factorial monoids. The characterization and counterexamples have been formally verified in Lean 4.
+<a href="https://github.com/eduardo-zambrano/pooling-multiplication-lean">(Lean files)</a>
+</p>
+
+
+<p align="justify" style="margin-top: 0; margin-bottom: 0;">&nbsp;</p>
+
+
+<p align="justify" style="margin-top: 0; margin-bottom: 0;"><a href="https://www.dropbox.com/scl/fi/5alr0mv2um88i92l9sc2p/SF_Zambrano_260729.pdf?rlkey=82t07061ebil675gb0g48xac4&dl=0">Factorial Monoids and (&#8469;, &times;): An Axiomatic Characterization</a> (August, 2026). Let <em>M</em> be a reduced commutative monoid. We give an exact axiomatic characterization of factoriality and, with one additional cardinality condition, of the multiplicative monoid (&#8469;, &times;). The structural core consists of three conditions: (WFD) strict divisibility is well-founded, (TD) the positive-power towers of distinct atoms are disjoint, and (CFI) labeled factorizations of coprime elements assemble bijectively. We prove that, for a reduced commutative monoid, these three conditions are equivalent to factoriality; in particular, atomicity, Euclid's lemma for atoms, and cancellativity are derived rather than assumed. A fourth condition, (CCA), requires a sequence of pairwise coprime non-units whose supports cover all atoms; once factoriality is established, it is equivalent to the atom set being countably infinite. Consequently, the four axioms hold if and only if <em>M</em> &cong; (&#8469;, &times;). The axioms are independent over the class of reduced commutative monoids, with two distinct failure modes exhibited for (CCA). All results, including the counterexamples, have been formally verified in Lean 4.
+<a href="https://github.com/eduardo-zambrano/factorial-monoids-lean">(Lean files)</a>
+</p>
+
+
+<p align="justify" style="margin-top: 0; margin-bottom: 0;">&nbsp;</p>
+
+
+<p align="justify" style="margin-top: 0; margin-bottom: 0;"><a href="https://www.dropbox.com/scl/fi/pdlz7m4s70xu9lfs3tcye/fractional_parallel_trends_for_website.pdf?rlkey=6ib5274t4jrqafl9idglzisvz&dl=0">Fractional Parallel Trends</a> (May, 2026). This note asks what fractional differencing can add to difference-in-differences. Ordinary DiD imposes equality of mean untreated first differences. In long panels with persistent untreated potential outcomes, this may be the wrong time-series restriction. I define fractional parallel trends by applying a one-sided fractional-difference filter to untreated potential outcomes. Under this condition, DiD on filtered outcomes identifies a filtered treatment effect. With no anticipation, this effect equals the usual average treatment effect on the treated in the first treated period, but is generally a distributed-lag transformation afterward. Fractional differencing does not, by itself, address endogenous selection. Its value is to make the time-series restriction embedded in parallel trends explicit, disciplined, and empirically transparent.
+<a href="https://www.dropbox.com/scl/fi/1meltkccytbopvl99namc/fractional_parallel_trends_online_appendix.pdf?rlkey=4fkpfqcq3lfvbmnotfdgjm8dh&dl=0">(Online appendix)</a> <a href="https://github.com/eduardo-zambrano/fractional-parallel-trends">(Replication code)</a>
+</p>
+
+
+<p align="justify" style="margin-top: 0; margin-bottom: 0;">&nbsp;</p>
+
+
 <p align="justify" style="margin-top: 0; margin-bottom: 0;"><a href="https://www.dropbox.com/scl/fi/wv3zluh9l62osdqkpsj57/carbery_concentration.pdf?rlkey=oi8d5col4fm50csxirdz095a3&dl=0">Dependence-Aware Concentration Inequalities: A Multivariate Extension via Carbery's Inequality</a> (February, 2026). We establish a new class of multivariate concentration inequalities that explicitly incorporate dependence structure by exploiting a connection to harmonic analysis. By adapting Carbery's multilinear generalization of the Cauchy-Schwarz inequality, we derive dependence-aware bounds on joint tail probabilities—the probability that <em>all</em> coordinates simultaneously exceed given thresholds. The central feature of this framework is a dependence functional Q<sub>n</sub>(p), which encodes the joint distribution structure through consecutive bivariate marginals. The functional Q<sub>n</sub> naturally accommodates Markovian dependence but can be optimized via variable reordering for general structures. For Gaussian vectors, we derive closed-form expressions showing that Q<sub>n</sub> is governed by the determinant of a tridiagonal matrix, computable in O(n) time. Unlike other methods, our approach relies on multilinear integral bounds, offering a distinct geometric perspective on concentration for dependent sequences.
 <a href="https://github.com/eduardo-zambrano/CarberyConcentration">(Lean files)</a>
 </p>
